@@ -1,0 +1,567 @@
+{
+    "name": "change-me",
+    "schema": "tabular-data-package",
+    "profile": "tabular-data-package",
+    "resources": [
+        {
+            "path": "Liverpool.csv",
+            "profile": "tabular-data-resource",
+            "name": "Liverpool",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Date",
+                        "type": "date",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Match",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Competition",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Duration",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Team",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Scheme",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Goals",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "xG",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Shots / on target",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "field10",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Passes / accurate",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "3",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "4",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Possession, %",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Losses / Low / Medium / High",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "5",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "6",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "7",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Recoveries / Low / Medium / High",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "8",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "9",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "10",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Duels / won",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "11",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "12",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Shots from outside penalty area / on target",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "13",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "14",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Positional attacks / with shots",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "15",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "16",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Counterattacks / with shots",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "17",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "18",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Set pieces / with shots",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "19",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "20",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Corners / with shots",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "21",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "22",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Free kicks / with shots",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "23",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "24",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Penalties / converted",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "25",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "26",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Crosses / accurate",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "27",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "28",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Deep completed crosses",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Deep completed passes",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Penalty area entries (runs / crosses)",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "29",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "30",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Touches in penalty area",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Offensive duels / won",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "31",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "32",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Offsides",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Conceded goals",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Shots against / on target",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "33",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "34",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Defensive duels / won",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "35",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "36",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Aerial duels / won",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "37",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "38",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Sliding tackles / successful",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "39",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "40",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Interceptions",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Clearances",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Fouls",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Yellow cards",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Red cards",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Forward passes / accurate",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "41",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "42",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Back passes / accurate",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "43",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "44",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Lateral passes / accurate",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "45",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "46",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Long passes / accurate",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "47",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "48",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Passes to final third / accurate",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "49",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "50",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Progressive passes / accurate",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "51",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "52",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Smart passes / accurate",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "53",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "54",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Throw ins / accurate",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "55",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "56",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Goal kicks",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Match tempo",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Average passes per possession",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Long pass %",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Average shot distance",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Average pass length",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "PPDA",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        }
+    ]
+}
