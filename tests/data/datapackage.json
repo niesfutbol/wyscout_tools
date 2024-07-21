@@ -158,77 +158,77 @@
                         "format": "default"
                     },
                     {
-                        "name": "Positional attacks / with shots",
+                        "name": "Positional attacks",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "15",
+                        "name": "Positional attacks_with shots",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "16",
+                        "name": "Positional attacks_with shots_%",
                         "type": "number",
                         "format": "default"
                     },
                     {
-                        "name": "Counterattacks / with shots",
+                        "name": "Counterattacks",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "17",
+                        "name": "Counterattacks_with shots",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "18",
+                        "name": "Counterattacks_with shots_%",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "Set pieces / with shots",
+                        "name": "Set pieces",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "19",
+                        "name": "Set pieces_with shots",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "20",
+                        "name": "Set pieces_with shots_%",
                         "type": "number",
                         "format": "default"
                     },
                     {
-                        "name": "Corners / with shots",
+                        "name": "Corners",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "21",
+                        "name": "Corners_with shots",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "22",
+                        "name": "Corners_with shots_%",
                         "type": "number",
                         "format": "default"
                     },
                     {
-                        "name": "Free kicks / with shots",
+                        "name": "Free kicks",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "23",
+                        "name": "Free kicks_with shots",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "24",
+                        "name": "Free kicks_with shots_%",
                         "type": "integer",
                         "format": "default"
                     },
