@@ -333,47 +333,47 @@
                         "format": "default"
                     },
                     {
-                        "name": "Defensive duels / won",
+                        "name": "Defensive duels",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "35",
+                        "name": "Defensive duels_won",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "36",
+                        "name": "Defensive duels_won_%",
                         "type": "number",
                         "format": "default"
                     },
                     {
-                        "name": "Aerial duels / won",
+                        "name": "Aerial duels",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "37",
+                        "name": "Aerial duels_won",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "38",
+                        "name": "Aerial duels_won_%",
                         "type": "number",
                         "format": "default"
                     },
                     {
-                        "name": "Sliding tackles / successful",
+                        "name": "Sliding tackles",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "39",
+                        "name": "Sliding tackles_successful",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "40",
+                        "name": "Sliding tackles_successful_%",
                         "type": "number",
                         "format": "default"
                     },
@@ -403,62 +403,62 @@
                         "format": "default"
                     },
                     {
-                        "name": "Forward passes / accurate",
+                        "name": "Forward passes",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "41",
+                        "name": "Forward passes_accurate",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "42",
+                        "name": "Forward passes_accurate_%",
                         "type": "number",
                         "format": "default"
                     },
                     {
-                        "name": "Back passes / accurate",
+                        "name": "Back passes",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "43",
+                        "name": "Back passes_accurate",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "44",
+                        "name": "Back passes_accurate_%",
                         "type": "number",
                         "format": "default"
                     },
                     {
-                        "name": "Lateral passes / accurate",
+                        "name": "Lateral passes",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "45",
+                        "name": "Lateral passes_accurate",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "46",
+                        "name": "Lateral passes_accurate_%",
                         "type": "number",
                         "format": "default"
                     },
                     {
-                        "name": "Long passes / accurate",
+                        "name": "Long passes",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "47",
+                        "name": "Long passes_accurate",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "48",
+                        "name": "Long passes_accurate%",
                         "type": "number",
                         "format": "default"
                     },
