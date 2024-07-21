@@ -53,32 +53,32 @@
                         "format": "default"
                     },
                     {
-                        "name": "Shots / on target",
+                        "name": "Shots",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "field10",
+                        "name": "Shots_on_target",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "2",
+                        "name": "Shots_on_target_%",
                         "type": "number",
                         "format": "default"
                     },
                     {
-                        "name": "Passes / accurate",
+                        "name": "Passes",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "3",
+                        "name": "Passes_accurate",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "4",
+                        "name": "Passes_accurate_%",
                         "type": "number",
                         "format": "default"
                     },
@@ -88,22 +88,22 @@
                         "format": "default"
                     },
                     {
-                        "name": "Losses / Low / Medium / High",
+                        "name": "Losses",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "5",
+                        "name": "Losses_Low",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "6",
+                        "name": "Losses_Medium",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "7",
+                        "name": "Losses_High",
                         "type": "integer",
                         "format": "default"
                     },
