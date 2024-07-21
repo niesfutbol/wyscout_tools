@@ -463,62 +463,62 @@
                         "format": "default"
                     },
                     {
-                        "name": "Passes to final third / accurate",
+                        "name": "Passes to final third",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "49",
+                        "name": "Passes to final third_accurate",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "50",
+                        "name": "Passes to final third_accurate_",
                         "type": "number",
                         "format": "default"
                     },
                     {
-                        "name": "Progressive passes / accurate",
+                        "name": "Progressive passes",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "51",
+                        "name": "Progressive passes_accurate",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "52",
+                        "name": "Progressive passes_accurate_%",
                         "type": "number",
                         "format": "default"
                     },
                     {
-                        "name": "Smart passes / accurate",
+                        "name": "Smart passes",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "53",
+                        "name": "Smart passes_accurate",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "54",
+                        "name": "Smart passes_accurate_%",
                         "type": "number",
                         "format": "default"
                     },
                     {
-                        "name": "Throw ins / accurate",
+                        "name": "Throw ins",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "55",
+                        "name": "Throw ins_accurate",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "56",
+                        "name": "Throw ins_accurate_%",
                         "type": "number",
                         "format": "default"
                     },
