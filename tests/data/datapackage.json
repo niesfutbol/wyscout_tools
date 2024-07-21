@@ -108,52 +108,52 @@
                         "format": "default"
                     },
                     {
-                        "name": "Recoveries / Low / Medium / High",
+                        "name": "Recoveries",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "8",
+                        "name": "Recoveries_Low",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "9",
+                        "name": "Recoveries_Medium",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "10",
+                        "name": "Recoveries_High",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "Duels / won",
+                        "name": "Duels",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "11",
+                        "name": "Duels_won",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "12",
+                        "name": "Duels_won%",
                         "type": "number",
                         "format": "default"
                     },
                     {
-                        "name": "Shots from outside penalty area / on target",
+                        "name": "Shots from outside penalty area",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "13",
+                        "name": "Shots from outside penalty area_on target",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "14",
+                        "name": "Shots from outside penalty area_on target_%",
                         "type": "number",
                         "format": "default"
                     },
