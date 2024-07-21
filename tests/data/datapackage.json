@@ -233,32 +233,32 @@
                         "format": "default"
                     },
                     {
-                        "name": "Penalties / converted",
+                        "name": "Penalties",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "25",
+                        "name": "Penalties_converted",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "26",
+                        "name": "Penalties_converted_%",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "Crosses / accurate",
+                        "name": "Crosses",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "27",
+                        "name": "Crosses_accurate",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "28",
+                        "name": "Crosses_accurate_%",
                         "type": "number",
                         "format": "default"
                     },
@@ -273,17 +273,17 @@
                         "format": "default"
                     },
                     {
-                        "name": "Penalty area entries (runs / crosses)",
+                        "name": "Penalty area entries",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "29",
+                        "name": "Penalty area entries_runs",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "30",
+                        "name": "Penalty area entries_crosses",
                         "type": "integer",
                         "format": "default"
                     },
@@ -293,17 +293,17 @@
                         "format": "default"
                     },
                     {
-                        "name": "Offensive duels / won",
+                        "name": "Offensive",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "31",
+                        "name": "Offensive duels_won",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "32",
+                        "name": "Offensive duels_won_%",
                         "type": "number",
                         "format": "default"
                     },
@@ -318,17 +318,17 @@
                         "format": "default"
                     },
                     {
-                        "name": "Shots against / on target",
+                        "name": "Shots against",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "33",
+                        "name": "Shots against_on target",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "34",
+                        "name": "Shots against_on target_%",
                         "type": "number",
                         "format": "default"
                     },
