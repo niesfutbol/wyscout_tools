@@ -12,5 +12,7 @@ read_team_stats <- function(path) {
 #' @export
 read_team_stats_from_json <- function(path) {
   team <- jsonlite::fromJSON(path)
-  return(team$matches)
+  stats_from_json <- team$matches
+  class(stats_from_json) <- "team_stats_from_json"
+  return(stats_from_json)
 }
