@@ -19,4 +19,7 @@ describe("read data from JSON", {
   it("skips the name row", {
     expect_equal(obtained_n_df, expected_n_df)
   })
+  it("return an objet of the class `team_stats_from_json`", {
+    expect_s3_class(san_luis, "team_stats_from_json")
+  })
 })
