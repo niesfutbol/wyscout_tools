@@ -19,3 +19,23 @@ describe("obtain_passes_to_final_third_of_two_teams_by_match", {
   obtained <- obtain_passes_to_final_third_of_two_teams_by_match(raw_data)
   expect_equal(obtained, expected)
 })
+
+describe("obtain_passes_to_final_third_of_two_teams_by_match.team_stats_from_json", {
+  match <- tibble::tibble(date = c("2021-01-01", "2021-01-02", "2021-01-03"))
+  team_stats <- tibble::tibble(passToFinalThirdSuccess = c(1, 2, 3))
+  opponent_team_stats <- tibble::tibble(passToFinalThirdSuccess = c(2, 3, 4))
+  team_stats_from_json <- list(
+    match = match,
+    teamStats = team_stats,
+    opponentTeamStats = opponent_team_stats
+  )
+  class(team_stats_from_json) <- "team_stats_from_json"
+  expected <- tibble::tibble(
+    date = c("2021-01-01", "2021-01-02", "2021-01-03"),
+    total_passes_to_final_third = c(3, 5, 7)
+  )
+  it("returns the expected tibble", {
+    obtained <- obtain_passes_to_final_third_of_two_teams_by_match.team_stats_from_json(team_stats_from_json)
+    expect_equal(obtained, expected)
+  })
+})
