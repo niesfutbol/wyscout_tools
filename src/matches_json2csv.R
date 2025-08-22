@@ -11,7 +11,7 @@ matches <- san_luis_data$matches$match |>
 the_team_path <- glue::glue("/workdir/results/{team_name}_team.csv")
 the_team <- san_luis_data$matches$teamStats |>
   tibble::as_tibble() |>
-  janitor::clean_names()  |>
+  janitor::clean_names() |>
   dplyr::select(-c(schemes, intervals)) |>
   readr::write_csv(the_team_path)
 
