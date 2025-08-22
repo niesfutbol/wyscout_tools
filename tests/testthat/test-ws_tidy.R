@@ -22,8 +22,8 @@ describe("obtain_passes_to_final_third_of_two_teams_by_match", {
 
 describe("obtain_passes_to_final_third_of_two_teams_by_match.team_stats_from_json", {
   match <- tibble::tibble(date = c("2021-01-01", "2021-01-02", "2021-01-03"))
-  team_stats <- tibble::tibble(passToFinalThirdSuccess = c(1, 2, 3))
-  opponent_team_stats <- tibble::tibble(passToFinalThirdSuccess = c(2, 3, 4))
+  team_stats <- tibble::tibble(pass_to_final_third_success = c(1, 2, 3), date = c("2021-01-01", "2021-01-02", "2021-01-03"))
+  opponent_team_stats <- tibble::tibble(pass_to_final_third_success = c(2, 3, 4), date = c("2021-01-01", "2021-01-02", "2021-01-03"))
   team_stats_from_json <- list(
     match = match,
     teamStats = team_stats,
