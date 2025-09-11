@@ -27,8 +27,8 @@ describe("add_tilt", {
 
     expected <- tibble::tibble(
       passToFinalThirdSuccess = c(1, 2, 3),
-	  date = c("2021-01-01", "2021-01-02", "2021-01-03"),
-	  total_passes_to_final_third = c(3, 5, 7),
+      date = c("2021-01-01", "2021-01-02", "2021-01-03"),
+      total_passes_to_final_third = c(3, 5, 7),
       tilt = c(100 * 1 / 3, 100 * 2 / 5, 100 * 3 / 7)
     )
     obtained <- add_tilt.team_stats_from_json(team_stats_from_json)
