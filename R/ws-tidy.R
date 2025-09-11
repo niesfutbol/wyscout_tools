@@ -13,7 +13,7 @@ obtain_passes_to_final_third_of_two_teams_by_match.team_stats_from_json <- funct
   ts <- team_stats$teamStats |>
     dplyr::bind_cols(team_stats$match)
   ots <- team_stats$opponentTeamStats |>
-  dplyr::bind_cols(team_stats$match)
+    dplyr::bind_cols(team_stats$match)
 
   team_stats <- ts |>
     dplyr::bind_rows(ots) |>
